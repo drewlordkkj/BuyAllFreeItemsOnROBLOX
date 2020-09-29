@@ -1,4 +1,4 @@
-# BuyAllFreeItemsOnROBLOX
+# Buy All Free Items On ROBLOX
 Note, this is not skidded. I made this on my own.
 
 # How to use
