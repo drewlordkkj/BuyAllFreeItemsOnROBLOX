@@ -1,5 +1,5 @@
 # Buy All Free Items On ROBLOX
-Note, this is not skidded. I made this on my own.
+Note, this is not skidded. I made this on my own free time.
 
 # How to use
 Put your Roblox Cookie in the cookies.txt file (if you dont know how to get a cookie, search it up on youtube.)
