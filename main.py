@@ -1,6 +1,7 @@
 import requests
 import time
 
+# chill
 ids = []
 cookie = open('cookie.txt','r').readline().strip()
 
@@ -31,13 +32,13 @@ except:
   input('invalid cookie change in cookie.txt')
   exit()
 
-print('scraping itemids')
+print('Scraping the item ids')
 getIds(None)
 
-print('buying items')
+print('Buying Items!!')
 for id in ids:
   r = req.post(f'https://economy.roblox.com/v1/purchases/products/{id}', data={'expectedCurrency': 1, 'expectedPrice': 0, 'expectedSellerId': 1} ,headers={"X-CSRF-TOKEN": xcrsftoken})
   if 'TooManyRequests' in r.text:
-      print('Too many requests, waiting 60 sec')
+      print('AHHHHHH too many requests, waiting a minute')
       ids.append(id)
       time.sleep(60)
