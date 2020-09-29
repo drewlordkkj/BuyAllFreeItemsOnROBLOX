@@ -1,0 +1,2 @@
+# BuyAllFreeItemsOnROBLOX
+no skid
